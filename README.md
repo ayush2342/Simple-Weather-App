@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Weather App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+The Weather App is a web application that provides real-time and forecasted weather information for a given location. It uses the Tomorrow.io API to fetch weather data.
 
-## Available Scripts
+## Features
+- Display real-time weather information
+- Display forecasted weather information for the next few days
+- Support for providing location either as latitude and longitude or as a string
 
-In the project directory, you can run:
+## Technologies Used
+- React.js
+- Tomorrow.io API
+- JavaScript (ES6+)
+- HTML5
+- CSS3
 
-### `npm start`
+## Getting Started
+To run the Weather App locally, follow these steps:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone this repository to your local machine.
+2. Navigate to the project directory.
+3. Install dependencies by running:
+npm install
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. Start the development server by running:
+npm start
+5. Open your web browser and navigate to http://localhost:3000 to view the app.
 
-### `npm test`
+## Usage
+- Enter a location in the search bar to view weather information for that location.
+- Real-time weather information will be displayed immediately.
+- Forecasted weather information can be viewed for the next few days.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## API Key
+This project uses the Tomorrow.io API to fetch weather data. You need to sign up for an API key on the Tomorrow.io website and replace the placeholder `YOUR_API_KEY` in the code with your actual API key.
 
-### `npm run build`
+## Troubleshooting
+1. API Rate Limit Reached
+Issue: Users might encounter errors related to reaching the API rate limit, resulting in failed requests.
+Troubleshooting Steps:
+Check if you've exceeded the API rate limit by making too many requests in a short period.
+Consider optimizing your application to make fewer API requests, such as caching data or reducing unnecessary requests.
+Verify if you're using the API key correctly and it's still valid. You might need to obtain a new API key if the current one has expired or reached its usage limit.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Incorrect Location Input
+Issue: Users might input incorrect or invalid location information, leading to failed requests or inaccurate weather data.
+Troubleshooting Steps:
+Double-check the location input to ensure it's correctly formatted and matches a valid location.
+Verify if you're providing latitude and longitude coordinates correctly if using that format.
+If providing a location string, ensure it's spelled correctly and includes relevant details like city name and country.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Missing API Key
+Issue: Users might forget to replace the placeholder API key in the code with their actual API key from Tomorrow.io.
+Troubleshooting Steps:
+Make sure you've signed up for an API key on the Tomorrow.io website and replaced YOUR_API_KEY in the code with your actual key.
+Double-check the API key to ensure it's copied correctly and doesn't contain any typos or extra characters.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgements
+- The Weather App was created by Ayush Sharma.
+- Contact Number - 7814385173
